@@ -1,0 +1,4 @@
+# MAKE additions: Windows deploy scripts must check out with CRLF.
+# Scoped to deploy/ so upstream files are never re-normalized.
+deploy/*.ps1 text eol=crlf
+deploy/*.bat text eol=crlf
